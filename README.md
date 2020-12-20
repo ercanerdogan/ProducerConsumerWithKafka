@@ -23,3 +23,10 @@ docker run -d --network=kafka --name=zookeeper -e ZOOKEEPER_CLIENT_PORT=2181 -e 
 
 # Kafka
 docker run -d --network=kafka --name=kafka -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 -p 9092:9092  confluentinc/cp-kafka
+
+# Create or List Topic 
+
+docker exec -it <zookeeper_container_id> kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic testLogs
+
+docker exec -it <zookeeper_container_id> kafka-topics --list --zookeeper localhost:2181 
+
