@@ -33,4 +33,5 @@ docker exec -it <zookeeper_container_id> kafka-topics --list --zookeeper localho
 
 # GUI Tool for Apache Kafka
 “Kafka Tool” : http://www.kafkatool.com/
+
 "Conduktor" : https://www.conduktor.io
