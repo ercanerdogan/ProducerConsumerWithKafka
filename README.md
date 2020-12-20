@@ -30,3 +30,7 @@ docker exec -it <zookeeper_container_id> kafka-topics --create --zookeeper local
 
 docker exec -it <zookeeper_container_id> kafka-topics --list --zookeeper localhost:2181 
 
+
+# GUI Tool for Apache Kafka
+“Kafka Tool” : http://www.kafkatool.com/
+"Conduktor" : https://www.conduktor.io
