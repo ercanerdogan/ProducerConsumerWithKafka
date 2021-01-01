@@ -1,3 +1,5 @@
+![kafka](https://github.com/ercanerdogan/ProducerConsumerWithKafka/blob/main/kafka.png?raw=true)
+
 # ProducerConsumerWithKafka
 Producuer and Consumer app by using Apache Kafka and Zookeper
 
